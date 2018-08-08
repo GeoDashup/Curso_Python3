@@ -1,0 +1,8 @@
+variosLibros=[
+
+    ("El Valle de los Lobos", "Laura Gallego", "SM", "Fantasia", 2006),
+    ("Laberintia", "Josep Otón", "Mensajero", "Religioso", 2015),
+    ("Las bicicletas son para el verano", "Fernando Fernán-Gómez", "Vicens Vives", "Guerra Civil", 1996)
+]
+
+miCursor.executemany("INSERT INTO LIBROS VALUES (?,?,?,?,?)", variosLibros)
